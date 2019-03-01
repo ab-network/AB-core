@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABUtils", "ABUtils\ABUtils.csproj", "{D2FD4377-7EAB-4104-A59D-3DFFCE25DC88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABExec", "ABExec\ABExec.csproj", "{BCE8C57A-3020-4019-852A-7C00C14E3D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABService", "ABService\ABService.csproj", "{B19FB41A-842B-4CAC-A83B-7DB47CFDC9E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2FD4377-7EAB-4104-A59D-3DFFCE25DC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FD4377-7EAB-4104-A59D-3DFFCE25DC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FD4377-7EAB-4104-A59D-3DFFCE25DC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FD4377-7EAB-4104-A59D-3DFFCE25DC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE8C57A-3020-4019-852A-7C00C14E3D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE8C57A-3020-4019-852A-7C00C14E3D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE8C57A-3020-4019-852A-7C00C14E3D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE8C57A-3020-4019-852A-7C00C14E3D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19FB41A-842B-4CAC-A83B-7DB47CFDC9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19FB41A-842B-4CAC-A83B-7DB47CFDC9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19FB41A-842B-4CAC-A83B-7DB47CFDC9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19FB41A-842B-4CAC-A83B-7DB47CFDC9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8ADD2FE-26F0-48A1-877A-8B4B70B320F2}
+	EndGlobalSection
+EndGlobal
