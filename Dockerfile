@@ -7,7 +7,7 @@ RUN dotnet restore
 RUN dotnet publish -c Release -o out
 
 # Build runtime image
-FROM microsoft/dotnet:aspnetcore-runtime
+FROM microsoft/dotnet:runtime
 WORKDIR /app
 COPY --from=build-env /app .
 ENTRYPOINT ["dotnet", "ABExec.dll"]
