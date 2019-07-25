@@ -14,7 +14,7 @@ namespace ABExec
             try 
             {
                 ServiceInstance instane = new ServiceInstance();
-                Debug.WriteLine(DebugLevel.Log, "Loading Plugins...");
+                Debug.WriteLine(DebugLevel.Log, "Loading Services...");
             }
             catch(Exception e)
             {
