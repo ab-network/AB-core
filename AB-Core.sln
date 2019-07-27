@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABExec", "ABExec\ABExec.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABService", "ABService\ABService.csproj", "{B19FB41A-842B-4CAC-A83B-7DB47CFDC9E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABGCP", "ABGCP\ABGCP.csproj", "{FD1009B8-BB6F-40A4-B6EC-9EC7D3610A03}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{B19FB41A-842B-4CAC-A83B-7DB47CFDC9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B19FB41A-842B-4CAC-A83B-7DB47CFDC9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B19FB41A-842B-4CAC-A83B-7DB47CFDC9E6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FD1009B8-BB6F-40A4-B6EC-9EC7D3610A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD1009B8-BB6F-40A4-B6EC-9EC7D3610A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD1009B8-BB6F-40A4-B6EC-9EC7D3610A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD1009B8-BB6F-40A4-B6EC-9EC7D3610A03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

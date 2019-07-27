@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Apis.Compute.v1" Version="1.40.2.1635" />
+    <PackageReference Include="Google.Apis.Container.v1" Version="1.40.2.1621" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ABService\ABService.csproj" />
     <ProjectReference Include="..\ABUtils\ABUtils.csproj" />
   </ItemGroup>
